@@ -1,0 +1,568 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2fcfd;
+    /* background-image: url(https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?t=st=1713942611~exp=1713946211~hmac=942f9f00ec0e7a6f8bf049262d0cfc853d14fdc16422ae40db2996f16489ea34&w=826);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+box-shadow: rgb;
+box-shadow: rgb(255 255 255 / 88%) 0 0 0 1000px inset;
+backdrop-filter: blur(4px); */
+    background-color: #f2fcfd;
+    background-color: #f2fcfd;
+    /* background-image: url(../img/dots.png);
+    background-image: url(../img/Shiny\ Overlay.svg);
+    background-image: url(../img/Mass\ Circles.svg); */
+    background-image: url(../img/Animated\ Shape.svg);
+    box-shadow: rgb(255 255 255 / 73%) 0 0 0 1000px inset;
+    box-shadow: rgb(255 255 255 / 82%) 0 0 0 1000px inset;
+    background-image: url(../img/Colored\ Shapes.svg);
+    background-image: url(../img/bg.jpg);
+    box-shadow: rgb(210 210 210 / 93%) 0 0 0 1000px inset;
+    box-shadow: rgb(211 227 253 / 97%) 0 0 0 1000px inset;
+}
+
+body {
+    background-color: #f2fcfd;
+    background-color: #f2fcfd;
+    background-color: #f2fcfd;
+    background-image: url(../img/Animated\ Shape.svg);
+    box-shadow: rgb(255 255 255 / 73%) 0 0 0 1000px inset;
+    box-shadow: rgb(255 255 255 / 82%) 0 0 0 1000px inset;
+    background-image: url(../img/Colored\ Shapes.svg);
+    background-image: url(../img/bg.jpg);
+    box-shadow: rgb(210 210 210 / 97%) 0 0 0 1000px inset;
+    background-size: contain;
+    background-position: center;
+    box-shadow: rgb(211 227 253 / 97%) 0 0 0 1000px inset;
+}
+
+.logo {
+    width: 250px;
+}
+
+video {
+    width: 120px;
+    /* border-radius: 100%; */
+}
+
+.grand_test {
+    background-color: #053352;
+    padding: 10px;
+    color: #fff;
+    padding-bottom: 0px;
+    border-radius: 5px;
+}
+
+.grand_test h6 {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.grand_test h2 {
+    font-size: 90px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.grand_test h4 {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.scope {
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+}
+
+.scope span {
+    color: #053352;
+    font-size: 44px;
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    font-weight: 800;
+}
+
+.pattern ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.pattern ul li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #053352;
+    font-weight: 700;
+    position: relative;
+}
+/* .pattern ul li::after { */
+
+.pattern ul li:not(:last-child)::after {
+    content: "";
+    width: 2px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    right: -1px;
+    border-radius: 10px;
+}
+
+.neet_standard {
+    background-color: #c1d42e;
+}
+
+.exam_centers li {
+    list-style-type: none;
+    padding: 10px 5px;
+    background-color: #fff;
+    background-color: #c1d42e;
+    font-size: 14px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin: 10px 0px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.exam_centers h1 {
+    font-size: 32px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #053352;
+}
+
+section.Resonance_neet_form_section {
+    padding: 50px 0px;
+}
+
+.cash_prize {
+    width: 200px;
+    height: 200px;
+    background-color: #c1d42e;
+    position: relative;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cash_prize h1 {
+    font-size: 100px;
+    font-weight: 300;
+    font-family: fantasy;
+    position: relative;
+    /* padding: 10px; */
+    left: 15px;
+}
+
+.cash_prize h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0px;
+    color: #053352;
+}
+
+.cash_prize h6 {
+    font-size: 15px;
+    margin: 0px;
+    font-family: math;
+    font-weight: 700;
+}
+
+.cash_prize {
+    width: 160px;
+    height: 160px;
+    background-color: #c1d42e;
+    position: relative;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -40px;
+    left: -30%;
+}
+
+.exam_centers {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.header {
+    padding: 10px;
+    text-align: center;
+}
+
+.Number_one {
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.last_date_registration ul li {
+    list-style-type: none;
+    font-size: 14px;
+    margin: 10px 0px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.registration_date {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    background-color: #c1d42e;
+    background-color: #053352;
+    color: #fff;
+}
+
+.last_date_registration {
+    background-color: #fff;
+    padding: 0px;
+    margin-top: 30px;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+.last_date_registration h1 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 0px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.last_date_registration h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 0px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.last_date_registration li i {
+    background-color: #c1d42e;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.footer_div {
+    background-color: #053352;
+}
+
+.footer_div h1 {
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 0px;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.footer_div h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-horizontal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+}
+
+.exam_centers li .fa-solid {
+    padding: 0px 5px;
+}
+
+.date {
+    position: relative;
+    margin-right: 10px;
+}
+
+.th {
+    position: absolute;
+    top: -4px;
+    font-size: 13px;
+    /* left: 10px; */
+    right: -9px;
+}
+
+.thank_header img {
+    width: 250px;
+}
+
+.thanks_section {
+    width: 100%;
+    position: relative;
+    background-color: #f2fcfd;
+    background-color: #f2fcfd;
+    background-color: #f2fcfd;
+    /* background-image: url(../img/dots.png); */
+    /* background-image: url(../img/Shiny\ Overlay.svg); */
+    background-image: url(./img/Mass\ Circles.svg);
+    box-shadow: rgb(255 255 255 / 74%) 0 0 0 1000px inset;
+    background-image: url(../img/Mass\ Circles.svg);
+    padding-bottom: 10px;
+    box-shadow: rgb(255 255 255 / 82%) 0 0 0 1000px inset;
+    background-image: url(../img/Colored\ Shapes.svg);
+    background-image: url(../img/bg.jpg);
+    box-shadow: rgb(210 210 210 / 97%) 0 0 0 1000px inset;
+    background-size: contain;
+    background-position: center;
+    box-shadow: rgb(211 227 253 / 97%) 0 0 0 1000px inset;
+}
+/* body::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background: rgb(32, 138, 209);
+    background: radial-gradient(circle, rgba(32, 138, 209, 1) 0%, rgba(0, 0, 0, 0.4375875350140056) 100%);
+    left: 0;
+    top: 0;
+}
+ */
+
+.main_part h3 {
+    color: #053352;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    top: 5%;
+    position: relative;
+    z-index: 99999;
+}
+
+.user_details ul li {
+    position: relative;
+    margin: 10px 0px;
+    list-style-type: none;
+    font-weight: 400;
+}
+
+.user_details ul li span {
+    position: absolute;
+    left: 20%;
+    font-weight: 700;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.user_details {
+    width: 100%;
+    max-width: 75%;
+    background-color: #fff;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button,
+select {
+    text-transform: none;
+    padding: 5px 10px;
+    background-color: #053352;
+    color: #fff;
+    border: 1px solid;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    left: 3%;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+    section.Resonance_neet_form_section {
+        padding: 10px 0px;
+    }
+    .grand_test h4 {
+        font-size: 26px;
+    }
+    .pattern ul li {
+        font-size: 12px;
+    }
+    .pattern ul li:not(:last-child)::after {
+        height: 17px;
+        right: -1px;
+    }
+    .form-horizontal {
+        margin-top: 20px;
+    }
+    .grand_test h6 {
+        font-size: 22px;
+    }
+    video {
+        width: 61px;
+        /* border-radius: 100%; */
+    }
+    .scope span {
+        color: #053352;
+        font-size: 44px;
+        position: absolute;
+        top: 0%;
+        right: 8%;
+        font-weight: 800;
+    }
+    .grand_test h2 {
+        font-size: 60px;
+        font-weight: 900;
+        margin: 0px;
+    }
+    .cash_prize {
+        width: 90px;
+        height: 90px;
+        background-color: #c1d42e;
+        position: relative;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 160px;
+        left: 75%;
+        position: absolute;
+        /* top: -700%; */
+    }
+    .cash_prize h1 {
+        font-size: 50px;
+        font-weight: 300;
+        font-family: fantasy;
+        position: relative;
+        /* padding: 10px; */
+        left: 15px;
+    }
+    .cash_prize h2 {
+        font-size: 20px;
+        font-weight: 800;
+        margin: 0px;
+        color: #053352;
+        left: 10pz;
+        left: -13px;
+        position: relative;
+    }
+    .cash_prize h6 {
+        font-size: 9px;
+        margin: 0px;
+        font-family: math;
+        font-weight: 700;
+        left: -10px;
+        position: relative;
+    }
+    .scope {
+        background-color: #fff;
+        position: relative;
+        border-radius: 5px;
+        width: 60%;
+        margin: auto;
+    }
+    .exam_centers {
+        margin-top: 20px;
+    }
+    .col-md-6.col-6 {
+        width: 185px;
+        /* border: 1px solid; */
+        float: left;
+        padding: 3px;
+    }
+    .cash_prize {
+        bottom: 160px;
+        left: 68%;
+        position: absolute;
+        /* top: -700%; */
+    }
+    .exam_centers {
+        padding-left: 5%;
+    }
+    .main_part h3 {
+        font-size: 20px;
+    }
+    .user_details {
+        max-width: 100%;
+    }
+    /* .user_details ul li {
+        position: relative;
+        margin: 32px 0px;
+        display: flex;
+        align-items: center;
+    } */
+    .user_details ul li span {
+        position: relative;
+        left: 0;
+        font-weight: 600;
+        word-break: break-word;
+        font-size: 13px;
+        padding-left: 47%;
+        display: flex;
+        justify-content: unset;
+        align-items: start;
+        top: -20px;
+    }
+    .user_details ul {
+        padding-left: 2px;
+        margin-top: 10px !important;
+    }
+    .user_details ul li {
+        font-size: 14px;
+    }
+    .user_details ul li {
+        font-size: 14px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+}
