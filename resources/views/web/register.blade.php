@@ -42,7 +42,7 @@
                     <div class="grand_test">
                         <div class="row g-0">
                             <div class="col-md-6">
-                                <h6>Resonance</h6>
+                                <h6>Resonancess</h6>
 
                                 <h2>NEET</h2>
                             </div>
